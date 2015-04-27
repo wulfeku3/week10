@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+	hideDotFiles = dotGitOnly
+[remote "tc362ss15"]
+	url = https://github.com/wulfeku3/tc362ss15
+	fetch = +refs/heads/*:refs/remotes/tc362ss15/*
+[remote "TC362"]
+	url = https://github.com/wulfeku3/tc362ss15
+	fetch = +refs/heads/*:refs/remotes/TC362/*

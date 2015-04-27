@@ -1,0 +1,12 @@
+<center>
+  <h1> Show me the Pics </h1>
+
+  <p> Enjoy some wonderful cats below. Want more than one cat at a time? Try adding /x after the current URL, replacing x with the number of pictures you'd like to see.</p>
+
+  <p>
+    <% @cats.each do |cat| %>
+    <img src="<%= cat.url %>" alt="Cat pic">
+    <% end %>
+  </p>
+
+</center>
